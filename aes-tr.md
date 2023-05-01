@@ -178,12 +178,12 @@ Giả sử ta cho Block2 là `\x00` *15 + `\x01`,
 
 TH1: bin của ctr tại block 1 kết thúc bằng `1`
 
-![image](https://user-images.githubusercontent.com/122846300/235404927-212ed62e-2b2a-4e7e-ad92-e71fda71ebd9.png)
+![image](https://user-images.githubusercontent.com/122846300/235404999-702a4db3-dfd8-440b-9e37-4f3a5d7421ae.png)
 
 
 TH2: bin của ctr tại block 1 kết thúc bằng `0`
 
-![image](https://user-images.githubusercontent.com/122846300/235404860-6b4392af-7400-49ae-8760-fb2f2b8341af.png)
+![image](https://user-images.githubusercontent.com/122846300/235405091-59db449b-6aac-458d-b99b-7b553d871b7c.png)
 
 Chính vì có 2 trường hợp như này mà khi nhập input < 3 block(48 bytes), hay đặt block kết thúc `\x01` ở các vị trí block đầu hay cuối của input trong khi chạy sẽ có thể không xuất hiện 2 block giống nhau mặc dù biến b=0
 
