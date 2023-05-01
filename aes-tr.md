@@ -160,7 +160,7 @@ Tại line 33, encrypt AES.MODE_ECB với input là xor(ctr, blocks[i])
 Để ý dòng 35, output của ta sẽ gồm iv+encrypt(block1)+encrypt(block2).... 
 
 ## Giải đề 
-Điểm đáng nhớ nhất của mode ECB là 2 ciphertext giống hệt nhau sẽ cho ra 2 plaintext giống nhau. Tức là ta phải làm cái gì đó để output có 2 khối giống nhau.
+Điểm đáng nhớ nhất của mode ECB là 2 plaintext giống hệt nhau sẽ cho ra 2 ciphertext giống nhau. Tức là ta phải làm cái gì đó để output có 2 khối giống nhau.
 
 Ý tưởng là nhập `m0` là một chuối, sao cho khi qua hàm Encrypt xử lý ta có được 2 khối giống nhau. Và `m1` sẽ là 1 chuỗi bất kỳ. Như vậy, bằng việc tìm xem output có 2 khối giống nhau hay không, ta có thể đoán được biến b là 0 hay 1
 
