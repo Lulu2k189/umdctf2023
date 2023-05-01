@@ -1,5 +1,5 @@
 # Đề bài
-```
+```py
 import socket
 import random
 import threading
@@ -190,7 +190,7 @@ Chính vì có 2 trường hợp như này mà khi nhập input < 3 block(48 byt
 Đến đây là ra rồi đấy :)
 
 solved.py
-```
+```py
 from pwn import *
 
 context.log_level='debug'
