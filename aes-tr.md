@@ -228,4 +228,4 @@ print(r.recvline())
 print(r.recvline())
 ```
 
-
+> Flag: UMDCTF{N0t_@_v3ry_gr34t_5ch3m3_8ae61b7910099}
