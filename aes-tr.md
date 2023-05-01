@@ -172,7 +172,7 @@ Phép xor cũng có cái hay của nó. `ctr` chính là int(iv) + 1... Điều 
 
 Như thế sẽ có 2 trường hợp trả về 2 block giống nhau:
 
-![image](https://user-images.githubusercontent.com/122846300/235401974-a666122b-b437-4ede-a9a3-a66234ad1969.png)
+![image](https://user-images.githubusercontent.com/122846300/235405239-5657ec61-78e5-434c-9dfa-9bee6e2fd298.png)
 
 Giả sử ta cho Block2 là `\x00` *15 + `\x01`, 
 
